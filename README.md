@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 from tqdm import tqdm_notebook as tqdm
 from PIL import Image 
-DATA_DIR = '/kaggle/input/fruits/fruits-360_dataset/fruits-360/'
+DATA_DIR = '/'
 TEST_DATA_DIR = os.path.join(DATA_DIR, 'Test')
 
 os.listdir(DATA_DIR)
